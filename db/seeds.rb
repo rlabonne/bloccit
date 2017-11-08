@@ -28,7 +28,7 @@ posts = Post.all
   price: 88
   )
 end
-sponsoredposts = SponsoredPost.all
+sponsored_posts = SponsoredPost.all
 
 # Create Comments
 100.times do

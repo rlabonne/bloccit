@@ -1,7 +1,8 @@
 Rails.application.routes.draw do
 
   resources :topics do
-    resources :posts, :sponsoredposts, except: [:index]
+    resources :posts, except: [:index]
+    resources :sponsored_posts
   end
 
   resources :questions
